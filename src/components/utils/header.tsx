@@ -3,7 +3,7 @@ import './header.css';
 const Header = () => {
     return(
         <div className="border">
-            <i className="bi bi-phone"></i>
+            <i className="bi bi-phone"></i><span>+91 8077561199</span><span><i className="bi bi-envelope-fill"></i></span><span>team@weforsociety.org</span>
         </div>
     )
 }
