@@ -1,66 +1,118 @@
 .firstHeader {
-    font-size: 12px;
+    font-size: .875em;
     color: wheat;
     margin-top: 0px;
     padding-top: 10px;
 }
-.socialMedia{
+
+.socialMedia {
     font-size: 15px;
     margin: 10px;
 }
-.socialMediaButtons{
-    border : none;
+
+.socialMediaButtons {
+    border: none;
     background-color: transparent;
     color: wheat;
 }
-.logoHeader{
-    height: 50px;
+
+.logoHeader {
+    height: 60px;
     width: 100px;
     margin-left: 25px;
 }
-.horizontaRule{
-    color: rgb(230, 234, 238);
-    margin-top: 10px;
 
+.horizontaRule {
+    color: rgb(230, 234, 238);
+    margin: 0; /* Adjust this to control spacing */
+    border: none; /* Ensure no border default styles */
 }
-.mainHeader{
-    background: #460080;
+
+.mainHeader {
+    background: #460080ca 50%;
+    
 }
+
 .DonateButton {
     display: flex;
-    align-items: center; /* Vertically centers items in the button */
-    justify-content: center; /* Horizontally centers items in the button */
+    align-items: center;
+    justify-content: center;
     color: rgb(255, 123, 0);
     border: 2px rgb(255, 123, 0) solid;
     border-radius: 6px;
     background: none;
     margin-left: 15px;
     font-size: 20px;
-    padding: 10px 15px; /* Add padding to ensure spacing around text and icon */
-    gap: 10px; /* Adds space between text and icon */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    padding: 10px 15px;
+    gap: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .DonateButton:hover {
-    color: white; /* Changes the text color on hover */
-    background-color: rgb(255, 123, 0); /* Changes the background color on hover */
-    cursor: pointer; /* Optional: Changes the cursor to a pointer */
+    color: white;
+    background-color: rgb(255, 123, 0);
+    cursor: pointer;
 }
-.navigationMenu{
+
+.navigationMenu {
     font-size: 25px;
-    margin : 10px 35px;
+    margin: 10px 35px;
     text-align: center;
     align-items: center;
 }
-.navItems{
+
+.navItems {
     color: white;
 }
-.circle-icon{
+
+.circle-icon {
     display: inline-flex;
-    width: 25px; /* Adjust width to fit your needs */
-    height: 25px; /* Make height equal to width for a perfect circle */
-    background-color: #e0e0e0; /* Default background color */
-    border-radius: 50%; /* Makes the background circular */
-    font-size: 25px; /* Font size of the arrow */
-    color: #333; /* Color of the arrow text */
+    width: 25px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #333;
 }
+
+.secondHeader {
+    margin-top: 0; /* Ensure no extra margin at the top */
+    padding-top: 0; /* Ensure no extra padding at the top */
+    padding-bottom: 0; /* Optionally adjust padding at the bottom if needed */
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+}
+
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center{
+    padding: 0px 15px
+}
+
+.nav-item .DonateButton{
+    margin-right: 40px;
+}
+
+.whatsAppMargin{
+    margin-right: 40px;
+}
+
+/* Ensure dropdown menu is hidden by default */
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+    visibility: hidden;
+}
+
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+

@@ -58,7 +58,7 @@ const Header = () => {
                             <i className="bi bi-youtube"></i>
                         </button>
                     </span>
-                    <span className="socialMedia">
+                    <span className="socialMedia whatsAppMargin">
                         <button className="socialMediaButtons" onClick={redirectWhatsapp}>
                             <i className="bi bi-whatsapp"></i>
                         </button>
@@ -75,7 +75,7 @@ const Header = () => {
                         </button>
                         <div className="collapse navbar-collapse position-absolute end-0 " id="navbarNavDropdown">
                             <ul className="navbar-nav">
-                                <li className="nav-item dropdown">
+                                <li className="nav-item dropdown menuItems">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         WHO WE ARE
                                     </a>
