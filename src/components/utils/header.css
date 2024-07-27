@@ -1,7 +1,13 @@
 .firstHeader {
     font-size: 20px;
+    margin-top: 10px;
 }
 .socialMedia{
-    font-size: 20px;
+    font-size: 23px;
     margin: 10px;
+}
+.socialMediaButtons{
+    border : none;
+    background-color: transparent;
+    color: none;
 }
