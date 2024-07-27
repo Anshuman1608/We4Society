@@ -1,13 +1,66 @@
 .firstHeader {
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 12px;
+    color: wheat;
+    margin-top: 0px;
+    padding-top: 10px;
 }
 .socialMedia{
-    font-size: 23px;
+    font-size: 15px;
     margin: 10px;
 }
 .socialMediaButtons{
     border : none;
     background-color: transparent;
-    color: none;
+    color: wheat;
+}
+.logoHeader{
+    height: 50px;
+    width: 100px;
+    margin-left: 25px;
+}
+.horizontaRule{
+    color: rgb(230, 234, 238);
+    margin-top: 10px;
+
+}
+.mainHeader{
+    background: #460080;
+}
+.DonateButton {
+    display: flex;
+    align-items: center; /* Vertically centers items in the button */
+    justify-content: center; /* Horizontally centers items in the button */
+    color: rgb(255, 123, 0);
+    border: 2px rgb(255, 123, 0) solid;
+    border-radius: 6px;
+    background: none;
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 10px 15px; /* Add padding to ensure spacing around text and icon */
+    gap: 10px; /* Adds space between text and icon */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.DonateButton:hover {
+    color: white; /* Changes the text color on hover */
+    background-color: rgb(255, 123, 0); /* Changes the background color on hover */
+    cursor: pointer; /* Optional: Changes the cursor to a pointer */
+}
+.navigationMenu{
+    font-size: 25px;
+    margin : 10px 35px;
+    text-align: center;
+    align-items: center;
+}
+.navItems{
+    color: white;
+}
+.circle-icon{
+    display: inline-flex;
+    width: 25px; /* Adjust width to fit your needs */
+    height: 25px; /* Make height equal to width for a perfect circle */
+    background-color: #e0e0e0; /* Default background color */
+    border-radius: 50%; /* Makes the background circular */
+    font-size: 25px; /* Font size of the arrow */
+    color: #333; /* Color of the arrow text */
 }
