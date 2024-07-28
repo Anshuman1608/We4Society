@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Header from './components/utils/header';
+import Home from './components/views/home/home';
 
 function App() {
   return (
@@ -25,13 +26,13 @@ function App() {
         <div>
           <nav>
             <ul>
-              <li><Link to="/">Dashboard</Link></li>
+              <li><Link to="/">Home</Link></li>
               <li><Link to="/employee">Employee</Link></li>
               <li><Link to="/customer">Customer</Link></li>
             </ul>
           </nav>
           <Routes>
-            <Route path="/" element={<Header />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </Router>

@@ -29,7 +29,17 @@
 }
 
 .mainHeader {
-    background: #460080ca 50%;
+    background: #46008083;
+    position: absolute; /* or 'fixed' */
+  top: 0;
+  left: 0;
+  right: 0;
+  /* height: 60px; Adjust height as needed */
+  /* background-color: rgba(255, 255, 255, 0.5); White with 50% transparency */
+  z-index: 1000; /* Ensure it sits above the slider */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
     
 }
 
